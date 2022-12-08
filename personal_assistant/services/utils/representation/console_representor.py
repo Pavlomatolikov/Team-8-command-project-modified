@@ -15,7 +15,6 @@ class ConsoleRepresentor(IRepresentor):
 
     @staticmethod
     def show_warn_message(value: str):
-        print("warn_console_representor")
         print(Fore.RED + value)
 
     @staticmethod
